@@ -9,6 +9,7 @@ https://templatemo.com/tm-541-host-cloud
 body {
 	font-family: 'Roboto', sans-serif;
 	transition: all 0.5s;
+	background-color: #f1f7fc;
 }
 p {
 	margin-bottom: 0px;
@@ -404,24 +405,93 @@ header {
 
 
 /* Trusted Style */
+
+.circle {
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	margin-left: 586px;
+	margin-top: 26%;
+	border-radius: 50%;
+	background-color: #c0e9fa;
+  }
+
+  .circle2 {
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	margin-left: 1000px;
+	margin-top: -5%;
+	border-radius: 50%;
+	background-color: #c0e9fa;
+  }
+  
+
+
+
+
+
 .trusted-section {
-	padding: 50px 0px 40px 0px;
-	background-color: #f7f7f7;
+	margin-top: 5%;
+	padding: 40px 0px 40px 0px;
+	background-color: #e6f0fc;
 }
-.trusted-section-heading {
+.form-box {
+	max-width: 400px;
+	position: relative;
+	padding: 50px;
+	background: #ffffff;
+	border: 10px solid rgb(255, 255, 255);
+	border-radius: 5%;
+	
+  }
+  
+  .contact {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	color: teal;
+	font-size: 30px;
 	text-align: center;
-}
-.trusted-section-heading h4 {
-	font-size: 17px;
-	text-transform: uppercase;
-	font-weight: 600;
-	color: #1e1e1e;
+
+  }
+
+  h1, p {
+	text-align: left;
+	font-family: 'Roboto', sans-serif;
+  }
+  
+  input, textarea {
+	width: 100%;
+	border-bottom: 1px solid black;
+	column-gap: 20px;
+	border-top: 2px solid white;
+	border-left: 2px solid white;
+	border-right: 2px solid white;
+	
+	
+
+  }
+
+  .icons {
+    margin-top: 100px;
 	margin-bottom: 50px;
-}
-.trusted-item img {
-	max-width: 156px;
-	margin: 0 auto;
-}
+	display: flex;
+	column-gap: 20px;
+	
+  }
+  
+  .icons :hover {
+   
+	color: rgb(80, 113, 219);
+	
+	
+  }
+
+  .title {
+	  padding-top: 100px;
+  }
+
+
 
 
 
